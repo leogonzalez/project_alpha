@@ -1,0 +1,23 @@
+{
+  "name": "projeto_alpha",
+  "version": "0.0.0",
+  "description": "This is my first implementation of a MEN stack (Clementine.js`s tutorial)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogonzalez/project_alpha.git"
+  },
+  "keywords": [
+    "Clementine.js",
+    "FreeCodeCamp"
+  ],
+  "author": "Leonardo Lujan Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leogonzalez/project_alpha/issues"
+  },
+  "homepage": "https://github.com/leogonzalez/project_alpha#readme"
+}
