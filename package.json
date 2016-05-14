@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/leogonzalez/project_alpha/issues"
   },
-  "homepage": "https://github.com/leogonzalez/project_alpha#readme"
+  "homepage": "https://github.com/leogonzalez/project_alpha#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18"
+  }
 }
