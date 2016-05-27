@@ -18,7 +18,8 @@ module.exports = function(passport){
         clientID: configAuth.githubAuth.clientID,
         clientSecret:configAuth.githubAuth.clientSecret,
         callbackURL: configAuth.githubAuth.callbackURL
-    }, function(token, refreshToken, profile, done){
+    },
+    function(token, refreshToken, profile, done){
         process.nextTick(function(){
             User.findOne({'github.id':profile.id}, function(err,user){
                 if (err) {return done(err);}
